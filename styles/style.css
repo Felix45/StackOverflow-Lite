@@ -165,42 +165,42 @@ div.header{margin:0;}
 
 
 
-.column-xs-1{
+div.column-xs-1{
 	width: 8.33333%;
 	margin-right: auto;
 	margin-left: auto;
 }
-.column-xs-2{
+div.column-xs-2{
 	width: 16.66667%;
 }
-.column-xs-3{
+div.column-xs-3{
 	width: 25%;
 }
-.column-xs-4{
+div.column-xs-4{
 	width: 33.33333%;
 }
-.column-xs-5{
+div.column-xs-5{
 	width: 41.66667%;
 }
-.column-xs-6{
+div.column-xs-6{
 	width: 50%;
 }
-.column-xs-7{
+div.column-xs-7{
 	width: 58.3333%;
 }
-.column-xs-8{
+div.column-xs-8{
 	width: 66.66667%;
 }
-.column-xs-9{
+div.column-xs-9{
 	width: 75%;
 }
-.column-xs-10{
+div.column-xs-10{
 	width: 83.33333%;
 }
-.column-xs-11{
+div.column-xs-11{
 	width: 91.66667%;
 }
-.column-xs-12{
+div.column-xs-12{
 	width: 100%;
 }
 
