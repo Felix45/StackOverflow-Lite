@@ -6,11 +6,15 @@
 }
 html,body{
 	width: 100%;
-	font-family: raleway
+	font-family: Raleway
 }
 p , div , span{
 	font-size: 14px;
 	color: #000;
+}
+a{
+	text-decoration: none;
+	color:#000;
 }
 .container{
 	width: auto;
@@ -33,6 +37,9 @@ div[class *= "column-"]{
 	width: 100%;
 	padding:10px 0;
 	/*display: inline-block;*/
+}
+.center-text{
+	text-align: center;
 }
 .header{
 	position: fixed;
@@ -93,6 +100,50 @@ div.header{margin:0;}
 .header .login a span{
 	color: #006699;
 }
+.footer .topic-header{
+	padding-right: 40px;
+}
+#fa-twitter span{
+	color: #1da1f2;
+}
+#fa-facebook span{
+	color: #3680f9;
+}
+#fa-youtube span{
+	color: hsl(0, 100%, 50%);
+}
+#fa-linkedin span{
+	color: #0084bf;
+}
+
+.footer .topic-header h3{
+	color: #006699;
+	font-weight:normal;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #ddd;
+}
+.footer .footer-links{
+	padding: 0;
+	list-style-type: none;
+}
+.footer .footer-links li{
+	padding: 10px 0;
+	border-bottom: 1px dotted #000;
+}
+.footer .footer-links li a{
+	color: #000;
+	display: block;
+	text-decoration: none;
+}
+.footer .row{
+	margin:0 20px 0 20px;
+}
+#copyright{
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #ddd;
+}
+
+
 
 .column-xs-1{
 	width: 8.33333%;
