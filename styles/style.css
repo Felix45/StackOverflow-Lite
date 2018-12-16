@@ -16,6 +16,9 @@ a{
 	text-decoration: none;
 	color:#000;
 }
+ul{
+	list-style-type: none;
+}
 .container{
 	width: auto;
 	padding-right: 15px;
@@ -81,8 +84,11 @@ div.header{margin:0;}
 	display: block;
 	margin: auto;
 }
-.header .logo-desk{
+.header .logo-desk , .links-mobile{
 	display: none;
+}
+.iconLogoGlyphMd:hover .links-mobile{
+	display: block;
 }
 .header .search form{
 	width: 100%;
@@ -106,9 +112,10 @@ div.header{margin:0;}
 	background-color: #006699;	
 }
 .header .login{
-	margin-top: 10px;
+	position: relative;
 }
 .header .login a{
+	float:right;
 	background: #fff;
 	color: #006699;
 	text-align: center;
@@ -118,6 +125,11 @@ div.header{margin:0;}
 }
 .header .login a span{
 	color: #006699;
+}
+.header .login .links-mobile{
+	width: 100%;
+	position: absolute;
+	top: 39px;
 }
 .question{
 	margin-top: 65px;
