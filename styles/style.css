@@ -1,0 +1,405 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+
+}
+html,body{
+	width: 100%;
+	font-family: Raleway
+}
+p , div , span{
+	font-size: 14px;
+	color: #000;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+.container{
+	width: auto;
+	padding-right: 15px;
+	padding-left: 15px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+.container::before, .container::after {
+    content: " ";
+    display: table;
+}
+div.row{
+	margin-left: -15px;
+	margin-right: -15px;
+	
+}
+div.row::before, div.row::after {
+    content: " ";
+    display: table;
+}
+div.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div[class *= "column-"]{
+	float: left;
+	width: 100%;
+	padding:10px 15px;
+	position: relative;
+	
+	/*display: inline-block;*/
+}
+.center-text{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+.header{
+	position: fixed;
+	left:0;
+	top:0;
+	margin:0;
+	z-index: 999;
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 5px 5px 5px #ddd;
+	-webkit-box-shadow: 5px 5px 5px #ddd;
+	-moz-box-shadow: 5px 5px 5px #ddd;
+}
+div.header{margin:0;}
+.header img{
+	height: 40px;
+	display: block;
+	margin: auto;
+}
+
+.header img{
+	height: 40px;
+	display: block;
+	margin: auto;
+}
+.header .logo-desk{
+	display: none;
+}
+.header .search form{
+	width: 100%;
+	position: relative;
+	bottom:0;
+	margin: auto;
+}
+.header .search form input[type="search"]{
+	width: 70%;
+	padding: 10px;	
+	border:1px solid #ddd;
+}
+
+.header .search form button[type="submit"]{
+	width: 30%;
+	float: right;
+	cursor:pointer;
+	padding: 10px;
+	color: #fff;
+	border: 1px solid #006699;
+	background-color: #006699;	
+}
+.header .login{
+	margin-top: 10px;
+}
+.header .login a{
+	background: #fff;
+	color: #006699;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 10px;
+	border: 1px solid #006699;
+}
+.header .login a span{
+	color: #006699;
+}
+.question{
+	margin-top: 65px;
+}
+.question #post_question{
+	color:#fff;
+	float:right;
+	padding: 10px;
+	font-weight: normal;
+	background-color: #006699;
+}
+.question #post_question .fa{
+	color:#fff;
+}
+.question .all-questions h3{
+	padding-left: 10px;
+}
+.question .votes div[class *="column-"]{
+	padding:0;
+}
+.question-summary a{
+	color:#006699;
+	font-size:13px;
+}
+.question .question-item {
+	margin-top: 10px;
+	border-top: 1px solid #ddd;
+}
+.question .question-item .category-labels{
+	margin-top: 5px;
+}
+.question .category-labels span.relativetime{
+	color: #616161;
+	float: right;
+	margin-left:5px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.question .question-item .category-labels a{
+	padding: 5px;
+	background-color: #E1ECF4;
+}
+
+.footer .topic-header{
+	padding-right: 40px;
+}
+#fa-twitter span{
+	color: #1da1f2;
+}
+#fa-facebook span{
+	color: #3680f9;
+}
+#fa-youtube span{
+	color: hsl(0, 100%, 50%);
+}
+#fa-linkedin span{
+	color: #0084bf;
+}
+.footer{
+	background-color: #242729;
+}
+.footer .topic-header h3{
+	color: #616161;
+	font-weight:normal;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #616161;
+}
+.footer .footer-links{
+	padding: 0;
+	list-style-type: none;
+}
+.footer .footer-links li{
+	padding: 10px 0;
+	border-bottom: 1px dotted #616161;
+}
+.footer .footer-links li a{
+	color: #ddd;
+	display: block;
+	text-decoration: none;
+}
+.footer .row{
+	margin:0 20px 0 20px;
+}
+
+#copyright{
+	color:#fff;
+	border-bottom:1px solid #616161;
+	border-top:1px solid #616161;
+}
+#copyright a{
+	color: #fff;
+}
+
+
+
+div.column-xs-1{
+	width: 8.33333%;
+	margin-right: auto;
+	margin-left: auto;
+}
+div.column-xs-2{
+	width: 16.66667%;
+}
+div.column-xs-3{
+	width: 25%;
+}
+div.column-xs-4{
+	width: 33.33333%;
+}
+div.column-xs-5{
+	width: 41.66667%;
+}
+div.column-xs-6{
+	width: 50%;
+}
+div.column-xs-7{
+	width: 58.3333%;
+}
+div.column-xs-8{
+	width: 66.66667%;
+}
+div.column-xs-9{
+	width: 75%;
+}
+div.column-xs-10{
+	width: 83.33333%;
+}
+div.column-xs-11{
+	width: 91.66667%;
+}
+div.column-xs-12{
+	width: 100%;
+}
+
+@media(min-width: 768px){
+	  .container{
+	  		width: 750px;
+	  		padding-right: 15px;
+			padding-left: 15px; 
+			margin-left: auto;
+			margin-right: auto;
+	   }
+	  div.column-sm-1{
+	 	width: 8.33%;
+		}
+		div.column-sm-2{
+	     	width: 16.67%;
+		}
+		div.column-sm-3{
+			width: 25%;
+		}
+		div.column-sm-4{
+			width: 33.33%;
+		}
+		div.column-sm-5{
+			width: 41.67%;
+		}
+		div.column-sm-6{
+			width: 50%;
+		}
+		div.column-sm-7{
+			width: 58.33%;
+		}
+		div.column-sm-8{
+			width: 66.67%;
+		}
+		div.column-sm-9{
+			width: 75%;
+		}
+		.column-sm-10{
+			width: 83.33%;
+		}
+		div.column-sm-11{
+			width: 91.67%;
+		}
+		div.column-sm-12{
+			width: 100%;
+		}
+}
+
+@media(min-width: 992px){
+	.container{
+			width: 970px;
+			padding-right: 15px;
+			padding-left: 15px; 
+			margin-left: auto;
+		   margin-right: auto;
+	  }
+	div.column-md-1{
+	 	width: 8.33%;
+	}
+	div.column-md-2{
+	     	width: 16.67%;
+	}
+	div.column-md-3{
+		width: 25%;
+	}
+	div.column-md-4{
+		width: 33.33%;
+	}
+	div.column-md-5{
+		width: 41.67%;
+	}
+	div.column-md-6{
+		width: 50%;
+	}
+	div.column-md-7{
+		width: 58.33%;
+	}
+	div.column-md-8{
+		width: 66.67%;
+	}
+	div.column-md-9{
+		width: 75%;
+	}
+	div.column-md-10{
+		width: 83.33%;
+	}
+	div.column-md-11{
+		width: 91.67%;
+	}
+	div.column-md-12{
+		width: 100%;
+	}
+	.header .logo-desk{
+			display: block;
+	}
+	.header .iconLogoGlyphMd{
+		display: none;
+	}
+}
+
+@media(min-width: 1200px){
+	.container{
+		width: 1170px;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.column-lg-1{
+	 	width: 8.33333%;
+	}
+	div.column-lg-2{
+	     	width: 16.66667%;
+	}
+	div.column-lg-3{
+		width: 25%;
+	}
+	div.column-lg-4{
+		width: 33.33333%;
+	}
+	div.column-lg-5{
+		width: 41.66667%;
+	}
+	div.column-lg-6{
+		width: 50%;
+	}
+	div.column-lg-7{
+		width: 58.33333%;
+	}
+	div.column-lg-8{
+		width: 66.66667%;
+	}
+	div.column-lg-9{
+		width: 75%;
+	}
+	div.column-lg-10{
+		width: 83.33333%;
+	}
+	div.column-lg-11{
+		width: 91.66667%;
+	}
+	div.column-md-12{
+		width: 100%;
+	}
+	.header .logo-desk{
+			display: block;
+	}
+	.header .iconLogoGlyphMd{
+		display: none;
+	}
+}
