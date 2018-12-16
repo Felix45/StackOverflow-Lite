@@ -131,6 +131,42 @@ div.header{margin:0;}
 	position: absolute;
 	top: 39px;
 }
+
+.user-login .login-form{
+	margin-top: 40px;
+
+}
+.user-login .login-form form{
+ 	width: 100%;
+	padding: 20px;
+}
+.user-login .login-form form fieldset{
+	padding: 10px 30px;
+	border: 1px solid #ddd;
+}
+.user-login .login-form form input , 
+.user-login .login-form form span,
+.user-login .login-form form p{
+	display: block;
+	width: 95%;
+	margin: 10px auto;
+	padding: 8px 10px;
+}
+.user-login .login-form form span , .user-login .login-form form p{
+	padding-left:0;
+}
+.user-login .login-form form input{
+	border: 1px solid #ddd;
+	
+}
+.user-login .login-form form input[type="submit"]{
+	cursor: pointer;
+	color: #fff;
+	border: 1px solid #006699;
+	background-color: #006699;
+
+}
+
 .question{
 	margin-top: 65px;
 }
