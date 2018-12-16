@@ -41,11 +41,15 @@ div[class *= "column-"]{
 .center-text{
 	text-align: center;
 }
+.text-right{
+	text-align: right;
+}
 .header{
 	position: fixed;
 	left:0;
 	top:0;
 	margin:0;
+	z-index: 999;
 	width: 100%;
 	background-color: #fff;
 	border-bottom: 1px solid #ddd;
@@ -100,6 +104,22 @@ div.header{margin:0;}
 .header .login a span{
 	color: #006699;
 }
+.question{
+	margin-top: 90px;
+}
+.question #post_question{
+	color:#fff;
+	float:right;
+	padding: 10px;
+	font-weight: normal;
+	background-color: #006699;
+}
+.question #post_question .fa{
+	color:#fff;
+}
+.question .all-questions h3{
+	padding-left: 10px;
+}
 .footer .topic-header{
 	padding-right: 40px;
 }
@@ -128,7 +148,7 @@ div.header{margin:0;}
 }
 .footer .footer-links li{
 	padding: 10px 0;
-	border-bottom: 1px dotted #000;
+	border-bottom: 1px dotted #ddd;
 }
 .footer .footer-links li a{
 	color: #000;
