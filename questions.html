@@ -55,24 +55,27 @@
 		 <div class="question">
 		 	<div class="column-lg-9 column-md-9 column-sm-9 col-xs-12">
 		 		<div class="row">
-		 				<h3> Post Question <a href="" id="post_question"><span class="fa fa-edit fa-lg"></span> View Questions </a></h3>
+		 				<h3> Post Question <a href="" id="post_question"><span class="fa fa-list fa-lg"></span> View Questions </a></h3>
 		 		</div>
 		 		<!-- Start top questions section -->
 		 		<div class="row">
 		 			<div class="column-lg-12 column-md-12 column-sm-12 column-xs-12">
 		 			 <div class="post-question-form">
 		 			 	<form action="" method="post">
-		 					<div>Title:</div>
+		 					<div>Title of Question:</div>
 		 					<div>
 								<input type="text" name="title" />		 					
 		 					</div>
-		 					<div>Description</div>
-		 					<div>
-								<textarea rows="10" cols="100%"></textarea>		 					
+		 					<div>Description of Question:</div>
+		 					<div class="question-description">
+								<textarea rows="10" cols="100%"></textarea>	
+								<div>
+								
+								</div>	 					
 		 					</div>
 		 					<div>Category:</div>
 		 					<div>
-								<select name="category">
+								<select name="category" multiple>
 									<option value="python">	Python </option>
 									<option value="java"> Java </option>
 									<option value="php">PHP</option>							
