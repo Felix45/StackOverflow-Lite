@@ -222,6 +222,31 @@ div.header{margin:0;}
 	padding: 5px;
 	background-color: #E1ECF4;
 }
+
+.post-question-form form{
+
+}
+.post-question-form input , .post-question-form textarea , .post-question-form button{
+	width: 100%;
+	margin: 5px 0;
+	padding: 10px;
+	font-family: raleway;
+	font-size:14px;
+	border: 1px solid #ddd;
+}
+.post-question-form select{
+	width: 100%;
+	padding: 5px;
+	cursor: pointer;
+}
+.post-question-form button{
+	color:#fff;
+	cursor: pointer;
+	background-color: #006699;
+	border:1px solid #006699;
+	padding: 10px 5px;
+	border-radius: 5px;
+}
 .cards{
 	padding: 10px 0;
 	border: 1px solid #ddd;
