@@ -264,9 +264,34 @@ div.header{margin:0;}
 	padding: 10px 0;
 	font-weight: normal;
 	border-top: 1px solid #ddd;
+}
+.delete-header .question-item{
+  border-top:none;
+}
+.delete-header .question-item h4{
+	padding:10px 0;
+	border-bottom: 1px solid #ddd;
+}
+.delete-header .question-item .question-description{
+	padding:10px 0;
+	text-align: justify;
 
 }
 
+.delete-header .question-item .text-right {
+	padding-bottom: 5px;
+	border-bottom:1px solid #ddd;
+}
+.delete-header .question-item .text-right a , .delete-header .question-item .text-right span{
+	color: red;
+}
+.delete-header .question-item .category-labels a.question-author{
+	background-color: #fff;
+	text-align: right;
+	font-size: 12px;
+	border:none;
+	font-weight:bold;
+}
 
 .footer .topic-header{
 	padding-right: 40px;
