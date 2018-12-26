@@ -292,6 +292,23 @@ div.header{margin:0;}
 	border:none;
 	font-weight:bold;
 }
+.delete-header ol ol{
+	margin-left: 25px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	list-style-type: none;
+	border-left: 5px solid #4CAF50; 
+}
+.delete-header ol ol li{ 
+	padding-bottom: 30px;
+
+}
+.delete-header ol ol li p{
+	text-align: justify;
+}
+.delete-header ol ol li span.fa-check{
+	color: #4CAF50; 
+}
 
 .footer .topic-header{
 	padding-right: 40px;
@@ -342,7 +359,16 @@ div.header{margin:0;}
 #copyright a{
 	color: #fff;
 }
-
+.button-pri{
+	cursor: pointer;
+	padding: 10px 5px;
+	color: #fff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid #006699;
+	background-color: #006699;
+}
 
 
 div.column-xs-1{
