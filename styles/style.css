@@ -59,6 +59,10 @@ div[class *= "column-"]{
 .text-right{
 	text-align: right;
 }
+.text-right p{
+	margin-top:20px;
+	text-align: left;
+}
 .header{
 	position: fixed;
 	left:0;
