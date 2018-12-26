@@ -203,6 +203,41 @@ div.header{margin:0;}
 .question .votes div[class *="column-"]{
 	padding:0;
 }
+.question .user-profile h3{
+	color: #006699;
+	font-weight: normal;
+	padding: 10px 0px ;
+	text-align: center;
+	border-bottom:1px solid #ddd;
+}
+.question .user-profile{
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 1px solid #ddd;
+	box-shadow: 5px 5px 5px #ddd;
+}
+.question .user-profile .user-profile-icon{
+	text-align: center;
+}
+.question .user-profile .user-profile-icon span,
+.question .user-profile .user-profile-footer span{
+	color: #006699;
+}
+.question .user-profile .stats{
+	color: #fff;
+	width: 30px;
+	height:30px;
+	padding: 5px;
+	background-color: #006699;
+	border-radius: 30px;
+	display: inline-block;
+	
+	text-align: center;
+	
+}
+.question .user-profile p{
+	padding: 10px 0;
+}
 .question-summary a{
 	color:#006699;
 	font-size:13px;
