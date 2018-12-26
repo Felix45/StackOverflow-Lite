@@ -310,6 +310,13 @@ div.header{margin:0;}
 .delete-header ol ol li p{
 	text-align: justify;
 }
+.delete-header ol ol li input[type="radio"]{
+	cursor: pointer;
+	padding-right: 5px;
+}
+.delete-header ol ol li label{
+	cursor: pointer;
+}
 .delete-header ol ol li span.fa-check{
 	color: #4CAF50; 
 }
