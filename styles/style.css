@@ -371,6 +371,29 @@ div.header{margin:0;}
 #fa-linkedin span{
 	color: #0084bf;
 }
+
+.flyout-menu{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 0%;
+	height: 100%;
+	z-index: 9999;
+	border-left:1px solid #ddd;
+	background-color: #fff;
+}
+.flyout-menu ul li{
+	
+	padding: 10px;
+	border-bottom: 1px dotted #ddd;
+}
+.flyout-menu ul li a{
+	display: block;
+	color:#006699;
+}
+.flyout-menu ul li a span{
+	color: #006699;
+}
 .footer{
 	background-color: #242729;
 }

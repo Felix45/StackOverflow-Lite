@@ -8,6 +8,7 @@
 		
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="js/main.js"></script>	
 	</head>
 	<!-- Start page -->
 	<body>
@@ -35,7 +36,7 @@
 				</div>
 				<div class="column-lg-3 column-md-3 column-sm-1 column-xs-2">
 				<!--  <div class="login logo-desk"> -->
-				  <span class="fa fa-navicon fa-2x menu-bar"></span>
+				  <span class="fa fa-navicon fa-2x menu-bar" onclick="display_flyout_menu()"></span>
 				  <ul class="dashboard-menu">
 				   <li>
 						<a href="profile.html"><span class="fa fa-user-circle fa-2x"></span> Felix Ouma</a>	
@@ -179,6 +180,19 @@
 		 
 		 
 		</div>
+		
+		<!-- Start FlyOut Menu Section -->
+		  <div class="flyout-menu" id="flyout">
+		  		<ul>
+		  			<li><a href="index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+		  			<li><a href="profile.html"><span class="fa fa-user-o fa-lg"></span> Account</a></li>
+		  			<li><a href="questions.html"><span class="fa fa-comment fa-lg"></span> Ask Question</a></li>
+		  			<li><a href="deletequestion.html"><span class="fa fa-trash-o fa-lg"></span> Delete Question</a></li>
+		  			<li><a href="login.html"><span class="fa fa-sign-out fa-lg"></span> Log Out</a></li>
+		  			<li><a href="#" onclick="display_flyout_menu()"><span class="fa fa-times fa-lg"></span> Close Menu</a></li>
+		  		</ul>
+		  </div>
+		<!--End the FlyOut Menu Section -->
 		
 		<!-- Start footer section -->		 
 		 <div class="footer" style="margin-top:20px;">

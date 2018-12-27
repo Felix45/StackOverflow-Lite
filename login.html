@@ -8,6 +8,7 @@
 		
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="js/main.js"></script>
 	</head>
 	<!-- Start page -->
 	<body>
@@ -38,15 +39,17 @@
 					<a href="register.html">Sign Up <span class="fa fa-user"></span></a>	
 					<a href="login.html">Sign In <span class="fa fa-sign-in"></span></a>	
 				  </div>	
-				  <div class="login iconLogoGlyphMd">
+				  <div class="login iconLogoGlyphMd" onclick="display_flyout_menu()">
 				     <ul>
 				  		<li>
 				  		<a href="#"> <span class="fa fa-bars"></span></a>
+				  		<!-- 
 				  		<ul class="links-mobile">
 								<li><a href="login.html"><span class="fa fa-user"></span> Sign</a></li>	
 								<li><a href="register.html"><span class="fa fa-sign-in"></span> Sign Up</a></li>
-								<li><a href="questions.html"><span class="fa fa-menu-list"></span> Questions</a></li>				  		
+								<li><a href="question.html"><span class="fa fa-menu-list"></span> Questions</a></li>				  		
 				  		</ul>
+				  		-->
 				  		</li>
 				  	  </ul>	
 				  </div>			
@@ -93,6 +96,17 @@
 		 
 		 
 		</div>
+		
+		<!-- Start FlyOut Menu Section -->
+		  <div class="flyout-menu" id="flyout">
+		  		<ul>
+		  			<li><a href="index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+		  			<li><a href="login.html"><span class="fa fa-sign-in fa-lg"></span> Sign In</a></li>
+		  			<li><a href="register.html"><span class="fa fa-user-o fa-lg"></span> Sign Up</a></li>
+		  			<li><a href="#" onclick="display_flyout_menu()"><span class="fa fa-times fa-lg"></span> Close Menu</a></li>
+		  		</ul>
+		  </div>
+		<!--End the FlyOut Menu Section -->
 		
 		<!-- Start footer section -->		 
 		 <div class="footer" style="margin-top:20px;">
