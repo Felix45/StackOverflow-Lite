@@ -1,0 +1,22 @@
+{
+  "name": "stackoverflow-lite",
+  "version": "1.0.0",
+  "description": "StackOverflow replica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felix45/StackOverflow-Lite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Felix45/StackOverflow-Lite/issues"
+  },
+  "homepage": "https://github.com/Felix45/StackOverflow-Lite#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
